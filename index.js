@@ -8,6 +8,9 @@ app.get("/", (req, res) =>{
     const today = new Date()
     const day = today.getDay()
 
+    const horas = new Date()
+    
+
     let type = "a weekday"
     let adv = "It is time to work hard"
 
@@ -18,7 +21,8 @@ app.get("/", (req, res) =>{
 
     res.render("index.ejs", {
         dayType: type,
-        advice: adv
+        advice: adv,
+        horas : horas
     })
 })
 
