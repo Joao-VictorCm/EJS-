@@ -1,0 +1,22 @@
+Tipo de Tags
+
+<%= Variaveis %> 
+Ex:nomes e saidas de respostas 
+
+<% console.log("Hello") %>
+Ex: Pode escrever codigo JS na tag, porem não vai renderizar nada na tela 
+
+<%- <h1>Hello</h1> %>
+Vai renderizar o proprio html, nesse caso vai renderizar o Hello na pagina
+
+<%%  <%= Variaveis %>   %%>  
+Vai renderizar a propria tag na pagina
+
+<%# É uma tag de comentario %> 
+Comenta kkkk
+
+<%-include("header.ejs")%> 
+Permite inserir outro arquivo ejs no arquivo atual
+
+
+
